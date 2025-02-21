@@ -27,6 +27,11 @@ public class Titik {
         return counterTitik;
     }
 
+    //Mencetak Count
+    void printCount(){
+        System.out.println("jumlah titik :" + counterTitik);
+    }
+
     //Mengembalikan nilai absis
     double getAbsis(){
         return absis;
@@ -98,11 +103,13 @@ public class Titik {
     void refleksiY(){
         absis = -1 * absis;
     }
-
+`    
+    //Mencari Titik Refleksi terhadap sumbu X
     Titik getRefleksiX(){
         return new Titik(absis, -ordinat);
     }
 
+    //Mencari Titik Refleksi terhadap sumbu Y
     Titik getRefleksiY(){
         return new Titik(-absis, ordinat);
     }
