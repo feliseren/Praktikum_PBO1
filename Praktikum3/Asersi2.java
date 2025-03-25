@@ -31,7 +31,5 @@ public class Asersi2 {
 // secara konsep, ada yang kurang tepat pada program Asersi2 di atas, jelaskan!
 
 // JAWABAN : 
-// ----Asersi Seharusnya Ditempatkan di Konstruktor----
-// Asersi (assert) digunakan untuk memeriksa nilai yang tidak boleh terjadi dalam program.
-// Dalam kode di atas, asersi hanya dilakukan dalam main() sebelum objek dibuat. 
-// Namun, jika ada cara lain untuk membuat objek lingkaran di tempat lain dalam program, asersi tersebut tidak akan berlaku.
+// Asersi Sebaiknya Ditempatkan di Konstruktor
+// Asersi (assert) berfungsi untuk memastikan bahwa nilai tertentu tidak melanggar aturan dalam program. Dalam kode yang diberikan, asersi hanya digunakan di dalam main() sebelum objek dibuat. Namun, jika objek lingkaran dibuat di bagian lain dari program, asersi tersebut tidak akan berlaku.
