@@ -25,3 +25,19 @@ public class AngkaSial{
         }
     }
 }
+
+
+// pertanyaan : 
+// Ketika eksepsi terjadi, apakah baris 12 pada AngkaSial.java di atas dieksekusi?  
+// Apakah baris 21 pada AngkaSial.java di atas dieksekusi? 
+
+// Jawaban:
+// 1.  
+// Baris 12 tidak akan dijalankan jika nilai `angka` adalah 13. Namun, jika `angka` bukan 13, maka baris ini akan dieksekusi.  
+// Hal ini terjadi karena kode berada dalam metode `cobaAngka(int angka)`. Jika `angka` bernilai 13, maka sebelum mencapai baris 12, program akan memicu eksepsi akibat perintah berikut:  
+// if (angka == 13) {  
+//     throw new AngkaSialException();  
+// }
+
+// Akibatnya, program akan langsung keluar dari metode dan masuk ke blok `catch`.  
+// Dengan kata lain, baris 12 hanya akan dijalankan jika `angka` tidak bernilai 13.
