@@ -1,3 +1,9 @@
+/*Nama File = MManusia.java
+ *Deskripsi = berisi main MManusia
+ *Pembuat   = Felis Eren Cristi Milala/24060123130098
+ *Tanggal   = 20 Maret 2025
+*/
+
 import java.time.LocalDate;
 
 public class MManusia {
